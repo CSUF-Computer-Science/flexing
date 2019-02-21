@@ -1,0 +1,51 @@
+/* Layout 4 Modifications */
+#articles {
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    background-color: honeydew;
+    position: sticky;
+    height: 6em;
+}
+
+#nav-articles {
+    top: 0px;
+    z-index: 10;
+}
+
+article nav {
+    top: 6em;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.article-sections {
+    display: flex;
+    flex-direction: row;
+}
+
+.article-sections > * {
+    flex: 1 1 0;
+}
+
+main > * {
+    flex: 1 1 0;
+}
+    
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    order: -1;
+}
+
+footer {
+    order: 1;
+}

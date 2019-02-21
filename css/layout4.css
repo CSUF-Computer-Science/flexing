@@ -1,0 +1,54 @@
+/* Layout 4 Modifications */
+#articles {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+}
+
+.article-sections {
+    display: flex;
+    flex-direction: row;
+}
+
+.article-paragraphs {
+    display: flex;
+    flex-direction: row;
+}
+
+.article-paragraphs p {
+    padding-right: 2em;
+}
+
+.article-sections > * {
+    flex: 1 1 0;
+}
+
+nav {
+    order: -1;
+}
+
+main > * {
+    flex: 1 1 0;
+}
+    
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    order: -1;
+}
+
+footer {
+    order: 1;
+}

@@ -1,0 +1,23 @@
+header, footer, nav, article {
+    border: 1px solid black;
+}
+
+header {
+    background-color: hotpink;
+}
+
+footer {
+    background-color: firebrick;
+}
+
+nav {
+    background-color: navajowhite;
+}
+
+section {
+    background-color: salmon;
+}
+
+h2 {
+    background-color: honeydew;
+}

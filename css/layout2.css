@@ -1,0 +1,37 @@
+/* Layout 2 Modifications */
+#articles {
+    display: flex;
+    flex-direction: row;
+}
+
+#articles nav {
+    order: -1;
+    padding-right: 2em;
+}
+
+#articles main {
+    order: 1;
+}
+
+article {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#nav-articles {
+    order: -1;
+    padding-right: 2em;
+}
+    
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    order: -1;
+}
+
+footer {
+    order: 1;
+}
